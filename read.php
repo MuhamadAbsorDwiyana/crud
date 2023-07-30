@@ -2,6 +2,7 @@
 
 require 'config.php';
 require 'class.php';
+global $conn;
 
 $sql = "SELECT * FROM Data";
 $stmt = $conn->query($sql);
@@ -14,4 +15,3 @@ if ($stmt->num_rows > 0) {
     echo "Database kosong";
 }
 $conn->close();
-?>

@@ -1,6 +1,7 @@
 <?php
 
 require 'config.php';
+global $conn;
 
 if (isset($_POST['UPDATE'])) {
     $nama = $_POST['nama'];
@@ -20,4 +21,3 @@ if (isset($_POST['UPDATE'])) {
     header("Location: index.php");
 }
 $conn->close();
-?>

@@ -1,11 +1,13 @@
 <?php
 
+/**
+ * @property mixed $nim
+ * @property mixed $kelas
+ * @property mixed $nama
+ */
 class Mahasiswa
 {
-    private $nama;
-    private $nim;
-    private $kelas;
-    public function __construct($nama,$nim,$kelas)
+    public function __construct($nama, $nim, $kelas)
     {
         $this->nama = $nama;
         $this->nim = $nim;
@@ -17,5 +19,3 @@ class Mahasiswa
         echo '</tr>';
     }
 }
-
-?>

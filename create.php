@@ -1,7 +1,7 @@
 <?php
 
 require 'config.php';
-
+global $conn;
 if (isset($_POST['CREATE'])) {
     $nama = $_POST['nama'];
     $nim = $_POST['nim'];
@@ -19,4 +19,3 @@ if (isset($_POST['CREATE'])) {
     header("Location: index.php");
 }
 $conn->close();
-?>

@@ -1,6 +1,7 @@
 <?php
 
 require 'config.php';
+global $conn;
 
 if (isset($_POST['DELETE'])) {
     $nim = $_POST['nim'];
@@ -17,4 +18,3 @@ if (isset($_POST['DELETE'])) {
     header("Location: index.php");
 }
 $conn->close();
-?>

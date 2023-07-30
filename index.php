@@ -9,7 +9,7 @@
 <body>
     <div class="container py-5 mt-3 bg-warning rounded">
         <div class="row">
-            <div class="col-3">
+            <div class="col-md-3">
             <h1 class="text-center mb-5">Create</h1>
                 <form action="create.php" method="post" class="form">
                     <label for="nama" class="form-label">Nama</label>
@@ -22,7 +22,7 @@
                 </form>
             </div>
 
-            <div class="col-3">
+            <div class="col-md-3">
             <h1 class="text-center mb-5">Read</h1>
                 <table class="table table-bordered">
                     <thead class="text-center">
@@ -39,8 +39,8 @@
                     </tbody>
                 </table>
             </div>
-            
-            <div class="col-3">
+
+            <div class="col-md-3">
             <h1 class="text-center mb-5">Update</h1>
             <form action="update.php" method="post" class="form">
                 <label for="nama" class="form-label">Nama</label>
